@@ -35,8 +35,7 @@ OWNER_ID = int(getenv("OWNER_ID", 7653820603))
 
 
 #Do Not change this 
-TOXIC = int("7843178823", 7843178823)
-
+TOXIC = int(getenv("TOXIC", 7843178823))
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
