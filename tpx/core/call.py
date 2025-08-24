@@ -35,7 +35,7 @@ from tpx.utils.exceptions import AssistantErr
 from tpx.utils.formatters import check_duration, seconds_to_min, speed_converter
 from tpx.utils.inline.play import stream_markup
 from tpx.utils.stream.autoclear import auto_clean
-from tpx.utils.thumbnails import get_thumb
+from tpx.utils.thumbnails import gen_thumb
 from strings import get_string
 
 autoend = {}
